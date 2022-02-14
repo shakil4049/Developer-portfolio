@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 h1 {
   font-size: 50px;
@@ -7,15 +8,23 @@ h1 {
 .orange-color {
   color: orange;
 }
+p {
+  text-align: justify;
+  padding: 2%;
+}
 section {
   display: flex;
+  margin-bottom: 100px;
 }
 .half-width {
   width: 60%;
   padding-left: 2%;
 }
 .half-width img {
-  width: 60%;
+  width: 90%;
+  border-radius: 50%;
+  padding-right: 2%;
+  padding-top: 4%;
 }
 .link-button {
   text-decoration: none;
@@ -28,4 +37,9 @@ section {
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
