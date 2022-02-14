@@ -13,6 +13,7 @@ h2 {
 }
 p {
   text-align: justify;
+  padding-right: 2%;
 }
 .flexible-container {
   display: flex;
